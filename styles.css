@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:ital@1&family=Roboto&display=swap");
+body {
+  background-color: #ffffff;
+  margin: 0% 20%;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: #c5998d;
+  color: white;
+}
+#nav-bar {
+  padding-right: 50px;
+  color: white;
+}
+#nav-bar ul {
+  display: flex;
+  width: 20%;
+  padding: 0%;
+  list-style: none;
+  color: white;
+}
+#nav-bar li {
+  margin: 0% 20%;
+  color: white;
+  padding: 0 20px;
+}
+#nav-bar a:-webkit-any-link {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  margin-right: 0%;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+}
+.company {
+  display: flex;
+  align-items: center;
+}
+#company-name {
+  display: flex;
+  margin-left: 20px;
+  font-family: "Noto Serif", serif;
+  color: black;
+}
+#company {
+  align-items: center;
+}
+
+#origin {
+  display: flex;
+  justify-content: center;
+  margin: 7.5% 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0;
+}
+
+#email {
+  width: 25%;
+  height: 20px;
+}
+
+#submit {
+  width: 15%;
+  height: 40px;
+  background-color: #c5998d;
+  color: white;
+  border-radius: 20px;
+  border: 0px;
+}
+/* showcase */
+
+.img-features {
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.description {
+  display: flex;
+  align-items: center;
+}
+#features {
+  display: grid;
+  margin: 5% auto;
+  padding: auto;
+  justify-content: center;
+}
+.description-letter {
+  padding: 0%;
+  margin: 0%;
+}
+p {
+  margin: 0;
+  padding: 0%;
+}
+.description-letter h3 {
+  margin: 0%;
+  padding: 0%;
+}
+.description p {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Item plan & pricing */
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.item {
+  box-shadow: 2px 2px rgb(216, 216, 216);
+  border-radius: 2%;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  height: auto;
+
+  margin: 4%;
+  padding-bottom: 2%;
+}
+
+.labeling {
+  font-size: 20px;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #c2dfe2;
+  border-radius: 5%;
+  font-weight: bolder;
+}
+
+.item-desc {
+  padding: 10px;
+  margin: 0%;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.item li {
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+}
+
+.selection {
+  border: none;
+  background-color: #c5998d;
+  position: sticky;
+  margin: 0 20px;
+  padding: 15px;
+}
